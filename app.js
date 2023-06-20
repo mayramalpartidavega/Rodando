@@ -24,6 +24,10 @@ app.get("/detalle", function (req, res) {
     res.sendFile(path.join(__dirname, "/views/detalle.html"));
 });
 
+app.get("/login", function (req, res) {
+    res.sendFile(path.join(__dirname, "/views/login.html"));
+});
+
 app.get("/registro", function (req, res) {
     res.sendFile(path.join(__dirname, "/views/registro.html"));
 });
